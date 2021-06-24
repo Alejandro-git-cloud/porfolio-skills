@@ -29,6 +29,10 @@ body{
     list-style:none;
     padding:10px;
 }
+
+.image-logo{
+    width:5%;
+}
 .logo{
     text-decoration:none;
     padding:10px;

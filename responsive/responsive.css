@@ -1,8 +1,8 @@
+
+/*Menu*/
 .btn {
     display:none;
 }
-
-/*Menu*/
 
 @media screen and (max-width:720px){
     .btn{
@@ -14,10 +14,28 @@
     }
 }
 
-/*Section*/
+/*Main Section*/
+/*images-languages*/
 
 @media screen and (max-width:720px){
-    .column-md-12{
+
+    .main-section {
+        display:flex;
+        flex-wrap:wrap;
+    }
+    
+    .col-md-12{
+        width:100%;
+        padding:16px;
+    }
+    
+     .image-me{
         width:100%;
     }
+
+    .image-language{
+        width:100%;
+    }
+   
 }
+
