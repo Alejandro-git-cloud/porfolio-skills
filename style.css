@@ -43,11 +43,20 @@ body{
     text-decoration: none;
 }
 
-/**/
+/* MAIN SECTION */
 
 .image-me{
     border-radius:100%;
     width:100%;
+}
+
+.languages{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.image-language{
+    width:50%;
 }
 
 /*FOOTER*/
@@ -58,6 +67,8 @@ body{
 }
 
 /*Helpers*/
+
+
 .display-flex{
     display:flex;
 }

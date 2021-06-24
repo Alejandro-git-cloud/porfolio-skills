@@ -2,6 +2,14 @@
     width:25%
 }
 
+.column-4{
+    width:33.33%
+}
+
+.column-8{
+    width:66.66%;
+}
+
 .column-9{
     width:75%;
 }
