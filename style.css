@@ -27,9 +27,17 @@ body{
 
 .item-menu{
     list-style:none;
+    padding:10px;
 }
 .logo{
     text-decoration:none;
+    padding:10px;
+}
+.logo:hover{
+    background-color:blue;
+}
+.item-menu:hover{
+    background-color:blue;
 }
 .link-menu {
     text-decoration: none;
