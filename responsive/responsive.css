@@ -1,0 +1,23 @@
+.btn {
+    display:none;
+}
+
+/*Menu*/
+
+@media screen and (max-width:720px){
+    .btn{
+        display:block;
+    }
+
+    .menu{
+        display:none;
+    }
+}
+
+/*Section*/
+
+@media screen and (max-width:720px){
+    .column-md-12{
+        width:100%;
+    }
+}
