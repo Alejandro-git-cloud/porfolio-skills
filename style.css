@@ -9,6 +9,7 @@
 body{
     background-image:url("images/code.jpeg");
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:whitesmoke;
 }
 
 .sticky{
@@ -43,6 +44,10 @@ body{
 
 /*FOOTER*/
 
+.footer{
+    padding:10px;
+    background-color:black;
+}
 
 /*Helpers*/
 .display-flex{
