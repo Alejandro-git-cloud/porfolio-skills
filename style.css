@@ -53,17 +53,33 @@ body{
     border-radius:100%;
     width:100%;
 }
-
+.shadow{
+    width:100%;
+    background-color:black;
+    margin:auto;
+    border-radius:50%;
+    box-shadow: 5px 5px 5px black;
+}
 .image-skill{
-    width:50%;
+    width:100%;
+    margin:20px;
 }
 
 .skills{
-    width:100%;
+    margin:auto;
+    width: 80%;
     display:flex;
+    justify-content: center;
+    flex-direction: row;
     flex-wrap:wrap;
 }
 
+.box-skill{
+    width:33.33%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
 /*FOOTER*/
 
 .footer{
@@ -73,7 +89,10 @@ body{
 
 /*Helpers*/
 
+.text-align-center{
+    text-align:center;
 
+}
 .display-flex{
     display:flex;
 }

@@ -20,18 +20,31 @@
 @media screen and (max-width:720px){
 
     .main-section {
+        margin:auto;
+        display:flex;
         flex-wrap:wrap;
+        flex-direction: column;
     }
     
     .col-md-12{
-        width:100%;
-        
+        width:100%;    
     }
     
-     .image-me{
+   .image-me{     
         width:100%;
     }
+    .skills{
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
 
+.box-skill{
+    width:100%;
+    
+}
     .image-language{
         width:100%;
     }
