@@ -74,3 +74,29 @@ width:110%;
 }
 
 /*Main Section*/
+
+@media screen and (max-width:540px){
+
+    .container-2{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .main-section{
+        display: flex;
+       flex-wrap:wrap;
+       justify-content:center;
+       align-content:center;
+       align-items: center;
+    }
+
+    .item {
+        flex-basis:100%;
+    }
+   
+    
+}
