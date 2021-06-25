@@ -50,6 +50,10 @@ body{
 
 /* MAIN SECTION */
 
+.container{
+    width:90%;
+    margin:auto;
+}
 .image-me{
     border-radius:100%;
     width:100%;
@@ -81,6 +85,29 @@ body{
     align-items: center;
     justify-content:center;
 }
+
+/*section-2*/
+
+.section-2{
+width:80%;
+margin:auto;
+}
+
+.description{
+border:solid;
+height:1000px;
+}
+
+.description-2{
+border:solid;
+height:1000px;
+}
+
+/*SECTION 3*/
+
+
+
+
 /*FOOTER*/
 
 .footer{
