@@ -14,44 +14,63 @@
     }
 }
 
-/*Main Section*/
-/*images-languages*/
+
+/*banner*/
 
 @media screen and (max-width:720px){
 
-    .main-section {
+    .banner {
         margin:auto;
         display:flex;
         flex-wrap:wrap;
         flex-direction: column;
     }
-    
+
     .col-md-12{
         width:100%;    
+    }
+
+    .shadow{
+        margin-top:1rem;
     }
     
    .image-me{     
         width:100%;
+        
     }
     .skills{
     width:100%;
+    margin:auto;
     display: flex;
-    flex-direction:column;
-    justify-content: center;
+    flex-direction:row;
+    justify-content: space-around;
     align-items:center;
 }
 
-.box-skill{
-    width:100%;
+.css-image{
+    width:75%;
+}
+
+.js-image{
+width:110%;
+}
+
+.git-hub-image{
+    width:140%;
+}
+
+    .box-skill{
+    width:20%;
     
 }
     .image-language{
         width:100%;
     }
 
-    .display-none{
-        display:none;
-    }
-   
+   .responsive-design-skills{
+       margin:auto;
+       margin-top:1.2rem
+   }  
 }
 
+/*Main Section*/

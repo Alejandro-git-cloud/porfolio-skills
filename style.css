@@ -48,7 +48,7 @@ body{
     text-decoration: none;
 }
 
-/* MAIN SECTION */
+/* Banner */
 
 .container{
     width:90%;
@@ -64,6 +64,10 @@ body{
     margin:auto;
     border-radius:50%;
     box-shadow: 5px 5px 5px black;
+}
+
+.dev-skills {
+    margin-top:2.5rem;
 }
 .image-skill{
     width:100%;
