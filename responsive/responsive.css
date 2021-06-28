@@ -78,11 +78,7 @@ width:110%;
 @media screen and (max-width:540px){
 
     .container-2{
-        display: flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items: center;
-        align-content: center;
+        width:100%;
 
     }
 
